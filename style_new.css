@@ -1,0 +1,41 @@
+/* Styling the header */
+header {
+  background-color: #8B0000; /* Dark red background color */
+  color: white; /* White text color */
+  text-align: center; /* Center-align text */
+  padding: 20px; /* Add some padding to the header */
+}
+
+/* Style the navigation menu */
+nav {
+  background-color: #A0522D; /* Sienna background color */
+}
+
+nav ul {
+  list-style: none; /* Remove bullet points from the list */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Display items in a row */
+  justify-content: center; /* Center-align menu items */
+}
+
+nav li {
+  margin: 10px; /* Add some spacing between menu items */
+}
+
+/* Style the page content */
+.content {
+  padding: 20px; /* Add some padding to the content area */
+}
+
+/* Style buttons */
+.button {
+  background-color: #8B0000; /* Dark red background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Add padding to the buttons */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+.button:hover {
+  background-color: #B22222; /* Lighter red background color on hover */
+}
